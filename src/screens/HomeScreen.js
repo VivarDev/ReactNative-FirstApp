@@ -12,12 +12,12 @@ const HomeScreen = ({ navigation }) => {
       <Text style={styles.text}>
         BIENVENIDO
       </Text>
-      <BigSeparator/>
+      <BigSeparator />
       <Button
         onPress={() => navigation.navigate('Components')}
         title="Ir a componente"
       />
-      <Separator/>
+      <Separator />
       <Button
         onPress={() => navigation.navigate('List')}
         title='Ir a lista'
@@ -27,37 +27,8 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate('Image')}
         title='Ir a imagenes'
       />
-      <Separator/>
-      <Button
-        onPress={() => navigation.navigate('Counter')}
-        title='Ir a contador'
-      />
-      <Separator/>
-      <Button
-        onPress={() => navigation.navigate('Color')}
-        title='Ir a colores'
-      />
-      <Separator/>
-      <Button
-        onPress={() => navigation.navigate('ColorMeter')}
-        title='Ir a Colores Mod'
-      />
-      <Separator/>
-      <Button
-        onPress={() => navigation.navigate('ColorSquare')}
-        title='Ir a Colores Cuadro'
-      />
-      <Separator/>
-      <Button
-        onPress={() => navigation.navigate('ColorSquareReducer')}
-        title='Ir a Colores Cuadro con Reducer'
-      />
 
-<Separator/>
-      <Button
-        onPress={() => navigation.navigate('NameScreen')}
-        title='Ir a Input Text'
-      />
+      
     </View>)
 };
 
