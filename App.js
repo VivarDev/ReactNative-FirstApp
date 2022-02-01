@@ -10,18 +10,20 @@ import ColorScreen from "./src/screens/ColorScreen";
 import ColorMeterScreen from "./src/screens/ColorMeterScreen";
 import ColorSquare from "./src/screens/ColorSquare";
 import ColorSquareReducer from "./src/screens/ColorSquareReducer";
+import NameScreen from "./src/screens/NameScreen";
 
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
     Components: myComponent,
     List: ListScreen,
-    Image:ImageScreen,
-    Counter:CounterScreen,
-  Color:ColorScreen,
-  ColorMeter:ColorMeterScreen,
-  ColorSquare:ColorSquare,
-  ColorSquareReducer:ColorSquareReducer,
+    Image: ImageScreen,
+    Counter: CounterScreen,
+    Color: ColorScreen,
+    ColorMeter: ColorMeterScreen,
+    ColorSquare: ColorSquare,
+    ColorSquareReducer: ColorSquareReducer,
+    NameScreen: NameScreen,
 
   },
   {
