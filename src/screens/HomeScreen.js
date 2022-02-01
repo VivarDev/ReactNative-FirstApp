@@ -22,13 +22,21 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate('List')}
         title='Ir a lista'
       />
-      <Separator/>
+      <Separator />
       <Button
         onPress={() => navigation.navigate('Image')}
         title='Ir a imagenes'
       />
-
-      
+      <Separator />
+      <Button
+        onPress={() => navigation.navigate('Counter')}
+        title='Ir a contador'
+      />
+      <Separator />
+      <Button
+        onPress={() => navigation.navigate('Color')}
+        title='Ir a colores'
+      />
     </View>)
 };
 
