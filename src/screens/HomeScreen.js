@@ -37,6 +37,22 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate('Color')}
         title='Ir a colores'
       />
+      <Separator/>
+      <Button
+        onPress={() => navigation.navigate('ColorMeter')}
+        title='Ir a Colores Mod'
+      />
+      <Separator/>
+      <Button
+        onPress={() => navigation.navigate('ColorSquare')}
+        title='Ir a Colores Cuadro'
+      />
+      <Separator/>
+      <Button
+        onPress={() => navigation.navigate('ColorSquareReducer')}
+        title='Ir a Colores Cuadro con Reducer'
+      />
+
     </View>)
 };
 
